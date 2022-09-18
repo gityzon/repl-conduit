@@ -7,7 +7,7 @@ if [ ! -f "conduit" ];then
   curl -L https://gitlab.com/famedly/conduit/-/jobs/artifacts/master/raw/conduit-x86_64-unknown-linux-musl?job=build:release:cargo:x86_64-unknown-linux-musl -o conduit
 mkdir -p /home/runner/${REPL_SLUG}/database/
 chmod 777 /home/runner/${REPL_SLUG}/database/
+chmod +x conduit
 fi
 
-chmod +x conduit
 #./conduit
