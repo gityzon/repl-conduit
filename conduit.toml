@@ -1,0 +1,13 @@
+[global]
+server_name = "example.com" # 换成你的域名
+database_path = "/home/runner/${REPL_SLUG}/database/"
+database_backend = "sqlite"
+address = "0.0.0.0"
+port = 6167
+max_request_size = 20_000_000 # 最大文件上传大小单位字节
+allow_registration = true
+allow_federation = true
+trusted_servers = ["matrix.org"]
+max_concurrent_requests = 500 #How many requests Conduit sends to other servers at the same time
+
+#log = "info,state_res=warn,rocket=off,_=off,sled=off"
