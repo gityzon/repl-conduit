@@ -1,9 +1,9 @@
 [global]
 server_name = "example.com" # 换成你的域名
 database_path = "/home/runner/${REPL_SLUG}/database/"
-database_backend = "sqlite"
+database_backend = "rocksdb"
 address = "0.0.0.0"
-port = 6167
+port = 3000
 max_request_size = 20_000_000 # 最大文件上传大小单位字节
 allow_registration = true
 allow_federation = true
