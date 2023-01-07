@@ -12,7 +12,7 @@ Conduit on replit.
 
 ### Feature:
 
-Conduit is a High-performance Matrix Server written in rust.
+Conduit is a High-performance Matrix Server written with rust.
 
 ### Deploy:
 
